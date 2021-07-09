@@ -1,0 +1,21 @@
+Para poder correr el proyecto angular debemos seguir lo siguiente:
+
+1) Una vez descomprimido todos los archivos en una carpeta
+estando en la raiz de la carpeta ejecutamos el comando 
+"npm install" para instalar y crear la carpeta node_modules
+
+2) Una vez acabado el paso anterior ya tenemos listas las dependencias
+y podemos ejecutar el servidor y el cliente en su orden indicado.
+
+3) seguimos ubicados en la raiz de la carpeta y abrimos un cmd en esta ruta
+para ejecutar el siguiente comando que es para el servidor
+"npm run server" deberia aparecer un mensaje de que se inicio.
+
+4) una vez que el sevidor este corriendo abrimos otro cmd o terminal 
+para nuestro cliente, para ello usaremos el comando "ng serve"
+cuando corra nos dara la url del localhost para nuestro navegador.
+
+NOTA: la direccion del localhost del servidor no muestra nada,
+ya que la interfaz esta en el ng serve.
+
+ng test --code-coverage
